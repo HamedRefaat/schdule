@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="schdule.exe" version="1.0.0.0" publicKeyToken="ed3608b81c9a0bfd" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="schdule" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="schdule.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Code7248.word_reader.dll" size="217600">
+      <assemblyIdentity name="Code7248.word_reader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>36B2Ht9qbT5YybkJB4CbjLxiqFnx8Fnz1jJZdlB5ZyA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="schdule.exe" size="176640">
+      <assemblyIdentity name="schdule" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0wZdsOE3ONp09Ra8MerTn7gsrYFPhiD2AXx6mgafcSw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ar-EG\schdule.resources.dll" size="85504">
+      <assemblyIdentity name="schdule.resources" version="1.0.0.0" language="ar-EG" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vtC85Bu3Hdkvr9FIVjiLKPV6RyDXVksHXNqMK3PK2kk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Logo.ico" size="11286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a/ttcOOgmX+VskGjwa+iSXnCACptyY7c9O2npTDsajs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\icon.png" size="66219">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V+J7tDSeTDLbT1rMniWNx/z6U9Ld6CQyobnpdm+g9xo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="schdule.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YyXx11OQ8Y9qQaMsAPfgWQIUIJMPT4Sw3i2UQTU2sRM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 8.1, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=HAMED\Mido" issuerKeyHash="bf43a4b821e7e03e4679d7b1e03daf8b9b7e235f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>a7Z5XbXU1y9s0A34a/Sl9+hCbEV+9j6OxFesebByB2Q=</DigestValue></Reference></SignedInfo><SignatureValue>bhvjK5v0xl+gAPMdGRQ2tGJt1XwMnlZF7JlH4fPfDhFWsE7TZOcwnuIq/c0Ap3hKCDS6oIa0h3nuIzhxD+0TyZZvp3JZldOGpGTnogzwmBfwH/OKLUH+hj5/GhSPyLOfqfP6QIGKGMIHJf7/bT1/MkNpHDEHRAyC16sTVaxABZc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vVu0Wogu8elAyly6HAr3f3dywpkjcH8h1s61PHhQ63PGQhFvPKUtVYXLB+gTW5/6BF40OWAlvJai4x/NaC15D/HZ+92HOqUipCOQ9iyhsKHvWiAYQZAkRoM467YB9ti6QeRbjaj29KTeI4YkCBf5RM35M9VISLy+5X+D/KVHNcE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="640772b079ac57c48e3ef67e456c42e8f7a5f46bf80dd06c2fd7d4b55d79b66b" Description="" Url=""><as:assemblyIdentity name="schdule.exe" version="1.0.0.0" publicKeyToken="ed3608b81c9a0bfd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HAMED\Mido</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/6pjWiOF0+4Tdga+HW1fpvn+Tlthuk0ohF3LR429M5Y=</DigestValue></Reference></SignedInfo><SignatureValue>NQCikOzxJrAo8kv6+ZLHbU0hl+7CMPY9W05wNOX44xbHf6xc3WjcExAvuZWCnJYt4iSW/LKSqEHzZPdWt1LcAcAviD/0DqUdXvdScyf2uCrghwgHoXfpt8/KOOpHgoxTohBEPtbhmuX8dhRr3eTEhTwfJu6VKdeOkTjA9WSuqo0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vVu0Wogu8elAyly6HAr3f3dywpkjcH8h1s61PHhQ63PGQhFvPKUtVYXLB+gTW5/6BF40OWAlvJai4x/NaC15D/HZ+92HOqUipCOQ9iyhsKHvWiAYQZAkRoM467YB9ti6QeRbjaj29KTeI4YkCBf5RM35M9VISLy+5X+D/KVHNcE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQHGJPnfEZCpBM5SZSxXt9tDANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQASABBAE0ARQBEAFwATQBpAGQAbzAeFw0xNjA5MTYwODAzNThaFw0xNzA5MTYxNDAzNThaMB8xHTAbBgNVBAMeFABIAEEATQBFAEQAXABNAGkAZABvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9W7RaiC7x6UDKXLocCvd/d3LCmSNwfyHWzrU8eFDrc8ZCEW88pS1VhcsH6BNbn/oEXjQ5YCW8lqLjH81oLXkP8dn73Yc6pSKkI5D2LKGwoe9aIBhBkCRGgzjrtgH22LpB5FuNqPb0pN4jhiQIF/lEzfkz1UhIvL7lf4P8pUc1wQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKb0QUp/PyqrwZOYLJFYC5DzPRffCd4Fvkgm3cneYlsXUWxmoVVr9SC0JY54YiKENKrTAuymtp2h+Iko63neds9LKs272MqiX7kRuoD7o4U7hu0sOq+32y7LmGkY7jW/iXFc5KyWF8Q/7Pu8dLAX7dqnRAosDnXDpUz6xxGFZXsd</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,27 @@
+c:\users\hamed-refaat\documents\visual studio 2013\Projects\schdule\schdule\bin\Debug\schdule.exe.config
+c:\users\hamed-refaat\documents\visual studio 2013\Projects\schdule\schdule\bin\Debug\schdule.exe
+c:\users\hamed-refaat\documents\visual studio 2013\Projects\schdule\schdule\bin\Debug\schdule.pdb
+c:\users\hamed-refaat\documents\visual studio 2013\Projects\schdule\schdule\obj\Debug\schdule.Form1.resources
+c:\users\hamed-refaat\documents\visual studio 2013\Projects\schdule\schdule\obj\Debug\schdule.Properties.Resources.resources
+c:\users\hamed-refaat\documents\visual studio 2013\Projects\schdule\schdule\obj\Debug\schdule.csproj.GenerateResource.Cache
+c:\users\hamed-refaat\documents\visual studio 2013\Projects\schdule\schdule\obj\Debug\schdule.exe
+c:\users\hamed-refaat\documents\visual studio 2013\Projects\schdule\schdule\obj\Debug\schdule.pdb
+c:\users\hamed-refaat\documents\visual studio 2013\Projects\schdule\schdule\obj\Debug\schdule.csprojResolveAssemblyReference.cache
+D:\Projects\schdule\schdule\bin\Debug\schdule.exe.config
+D:\Projects\schdule\schdule\bin\Debug\schdule.exe.manifest
+D:\Projects\schdule\schdule\bin\Debug\schdule.application
+D:\Projects\schdule\schdule\bin\Debug\schdule.exe
+D:\Projects\schdule\schdule\bin\Debug\schdule.pdb
+D:\Projects\schdule\schdule\bin\Debug\ar-EG\schdule.resources.dll
+D:\Projects\schdule\schdule\obj\Debug\schdule.csproj.ResolveComReference.cache
+D:\Projects\schdule\schdule\obj\Debug\schdule.Form1.resources
+D:\Projects\schdule\schdule\obj\Debug\schdule.Properties.Resources.resources
+D:\Projects\schdule\schdule\obj\Debug\schdule.Form1.ar-EG.resources
+D:\Projects\schdule\schdule\obj\Debug\schdule.csproj.GenerateResource.Cache
+D:\Projects\schdule\schdule\obj\Debug\ar-EG\schdule.resources.dll
+D:\Projects\schdule\schdule\obj\Debug\schdule.TrustInfo.xml
+D:\Projects\schdule\schdule\obj\Debug\schdule.exe.manifest
+D:\Projects\schdule\schdule\obj\Debug\schdule.application
+D:\Projects\schdule\schdule\obj\Debug\schdule.exe
+D:\Projects\schdule\schdule\obj\Debug\schdule.pdb
+D:\Projects\schdule\schdule\obj\Debug\schdule.csprojResolveAssemblyReference.cache
